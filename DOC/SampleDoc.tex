@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{luatexja}
+\date{\today}
+
+\title{LLMと物理的制約の関係}
+\author{MEKOU}
+
+\begin{document}
+    \maketitle
+    \section{最終目標}
+        従来のLLMは高度な推論が可能だが、embodyAIの動作に関して、環境情報を言語化して渡すプロセスで冗長なトークン消費や誤動作が発生する。本研究では、ECSとRAGを組み合わせたシステムにおいて、LLMへのコンテキスト注入手法の違いが、実行精度と計算コストに与える影響を明らかにする。
+    \section{背景}
+        LLM単体だと学習データに対する意味論は理解できるが、物理的な環境に対する意味論は理解できない。環境情報を言語化して渡すプロセスで冗長なトークン消費や誤動作が発生する。巨大な再学習も1つの手だが、コストが高すぎる。そこで、RAG,ECSを用いて精度をあげれるのかを考える。
+    \section{なぜECSとRAGなのか}
+        RAGは、LLMが外部知識ベースから情報を取得し、応答を生成するためのフレームワークである。これにより、LLMは最新の情報や特定のドメイン知識を活用できるようになる。一方、ECSは、エンティティ（Entity）、コンポーネント（Component）、システム（System）という3つの要素から構成されるアーキテクチャであり、複雑な環境を効率的に管理するための手法である。これらを組み合わせることで、LLMが物理的な環境情報を効果的に処理し、精度を向上させることが期待される。
+
+    \section{システム構成}
+    \begin{itemize}
+        \item Core: Rustによる仲介処理
+        \item ECS: Web上で動作するエンジン
+        \item RAG: qdrantを用いたベクトルデータベース
+        \item メタプロトコル: LLMとECSのやりとりを定義するプロトコル
+    \end{itemize}
+
+    \section{実験計画}
+        \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            LLM & LLM+RAG & LLM+ECS & LLM+RAG+ECS \\
+            \hline
+            token1 & token2 & token3 & token4 \\
+            exe: 10 & 20 & 5 & 1 \\
+            walk: 1m & 2m & 3m & end m \\
+            time: 1h & 30s & 20s & 1s \\
+            \hline
+        
+        \end{tabular}
+    \end{table}
+\end{document}
+\maketitle

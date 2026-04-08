@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{読みやすいフォント}{2}{0}{1}
+\beamer@sectionintoc {2}{可能な組み合わせ、特に英数字}{3}{0}{2}
