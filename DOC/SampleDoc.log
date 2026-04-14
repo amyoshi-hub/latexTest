@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.7)  15 APR 2026 01:46
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.7)  15 APR 2026 01:49
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/amyoshi9/Desktop/git/latexTest/DOC/SampleDoc
@@ -575,12 +575,12 @@ Here is how much of LuaTeX's memory you used:
  156562,552014 words of node,token memory allocated
  797 words of node memory still in use:
    7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 129 attribute, 50 glue_spec, 20 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:10,2:40856,3:288,4:188,5:48,6:40,7:4734,8:4,9:1932,10:25,11:8
+   avail lists: 1:12,2:40927,3:288,4:188,5:46,6:40,7:4742,8:5,9:1936,10:26,11:8
  25199 multiletter control sequences out of 65536+600000
  48 fonts using 36607023 bytes
  104i,8n,99p,2065b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on SampleDoc.pdf (2 pages, 93714 bytes).
+Output written on SampleDoc.pdf (2 pages, 93742 bytes).
 
 PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
