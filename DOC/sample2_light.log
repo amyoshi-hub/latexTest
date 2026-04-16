@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.7)  16 APR 2026 10:46
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.7)  16 APR 2026 11:17
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/amyoshi9/Desktop/git/latexTest/DOC/sample2_light
@@ -596,15 +596,15 @@ Here is how much of LuaTeX's memory you used:
  125244,552014 words of node,token memory allocated
  797 words of node memory still in use:
    7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 129 attribute, 50 glue_spec, 20 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:2,2:27661,3:259,4:160,5:35,6:37,7:2813,8:1,9:1232,10:7,11:2
+   avail lists: 1:1,2:28153,3:259,4:160,5:38,6:37,7:2877,8:1,9:1250,10:15,11:5
  25217 multiletter control sequences out of 65536+600000
  53 fonts using 44564183 bytes
- 104i,8n,99p,2076b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf>
-Output written on sample2_light.pdf (2 pages, 76899 bytes).
+ 104i,8n,99p,2114b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on sample2_light.pdf (2 pages, 81653 bytes).
 
-PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+PDF statistics: 60 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 1048576)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
